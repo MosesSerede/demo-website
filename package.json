@@ -1,0 +1,15 @@
+{
+  "name": "arithmetic-of-large-numbers",
+  "version": "1.0.0",
+  "description": "Precision arithmetic for numbers beyond standard language limits",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "big-integer": "^1.6.52",
+    "decimal.js": "^10.4.3"
+  }
+}
